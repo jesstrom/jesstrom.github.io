@@ -14,6 +14,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0,">
 
   <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+  	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="ideal-image-slider.css">
+	<link rel="stylesheet" href="default.css">
 
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="slick.min.js"></script>
@@ -25,11 +28,36 @@
   
   <style> 
         #header, .sitecolor {color: cyan;}
-        html, body {}
-	   .border{
+    /*.sitecolor-bg, .max .smiley {background-color: #d5a5ff;}
+    .sitecolor-fill {fill: #d5a5ff;} */
+    	 .border{
 	   	background-color: #ff00ff;
 	   }
-     </style>  
+	    p {
+	   	 	font: 12px/1.6em "Res", courier, monospace;
+	   	 	color: #ff00ff;
+ display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+	   }
+	   img {
+	   	  box-shadow: 5px 5px 10px cyan;
+
+	   }
+    </style>  
+
+    	<style media="screen">
+	#slider {
+		max-width: 900px;
+		margin: 50px auto;
+	}
+	</style>
 </svg></head>
 
 
@@ -106,857 +134,50 @@ Urban Outfitters</p>
 
 <section id="upper">
 	<section id="header" class="sitecolor">
-	<div class="header-item header-left">
-		<h3 id="projects-button" class="navlink" data-filter="project">WORK</h3>
-	
 
-
-	</div>
-	<div id="header-logo"><h2 class="wave optima">ℐᶓ$ȿⅈ☾Λ&nbsp;৳ℜ✿ⓜƀ⟁t♀ᶉΞ&nbsp;</h2></div>
-	<div class="header-item header-right">
-					<h3 class="navlink info-link" data-info="info-about"><a href="contact.html">CONTACT</a></h3>
-			</div>
+	<div id="header-logo"><h2 class="wave optima"><ahref="www.jesstrom.com">ℐᶓ$ȿⅈ☾Λ&nbsp;৳ℜ✿ⓜƀ⟁t♀ᶉΞ&nbsp;</a></h2></div>
 
 
 
-	<div id="project-filters">
-			<h3 class="navlink filter" data-filter="project">ALL</h3>
-		 			<h3 class="navlink filter" data-filter="art-direction">ART-DIRECTION</h3>
-		 			<h3 class="navlink filter" data-filter="identity">IDENTITY</h3>
-		 			<h3 class="navlink filter" data-filter="installation">INSTALLATION</h3>
- 		 			<h3 class="navlink filter" data-filter="motion">MOTION</h3>
-		 			<h3 class="navlink filter" data-filter="package">PACKAGE</h3>
-		 			<h3 class="navlink filter" data-filter="print">PRINT</h3>
-		 			<h3 class="navlink filter" data-filter="web">WEB</h3>
 
 
-			</div>
 </section>
 	
 </section>
 
-<section id="projects" class="masonry">
-	
-		
-	<div class="project  motion size-3 landscape" style="" >
-		<div class="project-inner" data-project="">
-			
-			<img src="nish/JessTrom_Nishimiya_Video02.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#2cfbfe; color:#7c24fb">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">NISHIMIYA SILK</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(Motion)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-	<div class="project  identity size-3 landscape" style="" >
-		<div class="project-inner" data-project="">
-			
-			<img src="b+w/b+w.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#bd26fb; color:#fd70fc">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">BLACK + WHITE <br>INTERNATIONAL POSTER EXHIBITION</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(IDENTITY)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-
-	<div class="project  print web size-3 landscape" style="" >
-		<div class="project-inner" data-project="">
-			
-			<img src="moses/let-life-unfold.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#bcfd33; color:#7624fb">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">MOSES NADEL</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(PRINT, WEB)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-
-	<div class="project  art-direction print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hip-hop/raskalz.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#2afdb7; color:#fc3e1d">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">DA HIP HOP RASKALZ</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(ART-DIRECTION, PRINT)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-	<div class="project  print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/kooky.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#fc26ed; color:#bffd33">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">KOOKY</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(PRINT)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-
-
-	<div class="project  art-direction print web size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="court-16/flyer.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#4824fb; color:#fef636">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">COURT 16</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(ART-DIRECTION, PRINT, WEB)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-	<div class="project  print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/spread.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#fc1781; color:#29f3fd">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">HYBRID</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(PRINT)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-	<div class="project print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/olgiati.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#2cfef3; color:#ba25f8">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Olgiati</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(PRINT)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
  
- 
-	<div class="project art-direction identity size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/kaynyc.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#fdbc2c; color:#e7295a">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">KAT NYC</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(ART-DIRECTION, IDENTITY)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
 
-		<div class="project  package size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/xzapz.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#5dfd82; color:#fc451e">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">XZAPZ</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(PACKAGE)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
 
+<p> 
+/*<br>  :::  Design by Jessica Trombatore<br>
+-------------------------------------------------- */<br><br>
+#JESS_TROM {<br>
+SERVICES: BRANDING, INTERACTIVE, PRINT, ART-DIRECTION, INSTALLATION; <br>
+EDUCATION: PRATT CLASS OF '16; <br>
+DEGREE: BFA COMMUNICATIONS DESIGN; <BR>
+CITY: BROOKLYN;<br>
+FAVORITE-COLORS: BLACK, WHITE, GRADIENT; <br>
+ZODIAC: CANCER; <br>
+SECRET-TALENT: FIGURE-SKATING; <br>
+WEBSITE: URL(WWW.JESSTROM.COM);<br>
+EMAIL: JESS@JESSTROM.COM;<br>
+}
 
-		<div class="project  print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/2600.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#bffd33; color:#1374fb">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">2600</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(PRINT)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
 
-			<div class="project  identity art-direction size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/bitches_only.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#fc27f3; color:#63fd7a">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">BITCHINN</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(IDENTITY, ART DIRECTION)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
 
-		<div class="project  installation size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/gun_control.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#7323fb; color:#378ffb">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">GUN CONTROL</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(INSTALLATION)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
 
-
-<div class="project  motion size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/astroposse.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#fd785f; color:#fb0c1a">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">ASTROPOSSE</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(MOTION)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-<div class="project  print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/bmw.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#1996fc; color:#a6fd33">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">BROOKLYN MACHINE WORKS</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(PRINT)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-	<div class="project  art-direction identity size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/pratt.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#22ccd9; color:#4cfd72">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">PRATT PROMPT</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(ART-DIRECTION, IDENTITY)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-	<div class="project  identity size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="hybrid/whitney.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#fd8424; color:#ed2d43">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">WHITNEY MUSEUM</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">(IDENTITY)<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-	<!--	
-	<div class="project  video size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/test">
-			
-			<img src="http://thestudiogold.net/content/01-projects/2-steve-aoki/Screen-Shot-2014-10-15-at-2.46.16-PM_o.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#009efa; color:#1cff6f">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Steve Aoki</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Video<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  print size-2 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/sovrn">
-			
-			<img src="http://thestudiogold.net/content/01-projects/3-sovrn/sovrn-board-600px-w.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#b759ff; color:#9cff8f">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Sovrn</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project   size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/adult-swim-bump">
-			
-			<img src="http://thestudiogold.net/content/01-projects/4-adult-swim-bump/bounce-si.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#b8b8b8; color:#3609a8">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Adult Swim Bump</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class=""><br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  installation size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/distorted-bounce">
-			
-			<img src="http://thestudiogold.net/content/01-projects/4-adult-swim-bump/bounce-si.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#092be8; color:#fa78e4">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">TKAY MAIDZA STAGE DESIGN</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Installation<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  installation size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/the-standard-mural">
-			
-			<img src="http://thestudiogold.net/content/01-projects/4-adult-swim-bump/bounce-si.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#ff8fda; color:#ffffff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">The Standard - Mural</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Installation<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project   size-2 square" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/adult-swim-single-ka">
-			
-			<img src="http://thestudiogold.net/content/01-projects/7-adult-swim-single-ka/ka-600-600_websmall-r2.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#009900; color:#ff9ce6">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Adult Swim Single Ka</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class=""><br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project   size-2 portrait" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/tunica">
-			
-			<img src="http://thestudiogold.net/content/01-projects/8-tunica/tunica3.png" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#ff96ff; color:#efff87">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">TUNICA</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class=""><br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/jungle">
-			
-			<img src="http://thestudiogold.net/content/01-projects/9-jungle/jungle-si.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#ffadf1; color:#96ff9b">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Jungle</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  video size-2 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/tkay-maidza-switch-lanes">
-			
-			<img src="http://thestudiogold.net/content/01-projects/10-tkay-maidza-switch-lanes/tkay-music-video.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#baffcb; color:#8161ff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Tkay Maidza - Switch Lanes</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Video<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project   size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/clarence">
-			
-			<img src="http://thestudiogold.net/content/01-projects/11-clarence/clarence-logo-thumbnail.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#03ddff; color:#d270ff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">CLARENCE</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class=""><br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  installation print size-2 portrait" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/fun-house">
-			
-			<img src="http://thestudiogold.net/content/01-projects/12-fun-house/FUNHOUSE_2014_poster.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#9f0acc; color:#ff7300">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Fun House Poster</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Installation<br>Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  installation size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/fun-house-structure">
-			
-			<img src="http://thestudiogold.net/content/01-projects/13-fun-house-structure/as-fun-house2_websmall.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#ff6600; color:#c62bff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Fun House Structure</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Installation<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  video size-2 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/fun-house-bump-3">
-			
-			<img src="http://thestudiogold.net/content/01-projects/14-fun-house-bump-3/screen-shot-2015-05-19-at-12.00.24-am.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#bfbfbf; color:#ff6905">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Fun House Bump 2014</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Video<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  installation print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/fun-house-tour-bus">
-			
-			<img src="http://thestudiogold.net/content/01-projects/15-fun-house-tour-bus/bus1.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#d1d1d1; color:#ff7e05">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Fun House Tour Bus</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Installation<br>Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  print installation size-3 square" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/fun-house-truck">
-			
-			<img src="http://thestudiogold.net/content/01-projects/16-fun-house-truck/as-icecrem-truck.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#ff7b00; color:#ba6bff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Fun House Ice Cream Truck</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Print<br>Installation<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  video size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/fun-house-bump-2013">
-			
-			<img src="http://thestudiogold.net/content/01-projects/17-fun-house-bump-2013/screen-shot-2015-05-19-at-12.43.06-am.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#a8a8a8; color:#ff7300">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Fun House Bump 2013</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Video<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  print size-3 square" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/adult-swim-singles">
-			
-			<img src="http://thestudiogold.net/content/01-projects/18-adult-swim-singles/machinedrum-600-600_websmall.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#ff61c0; color:#0d00fa">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Adult Swim Singles</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  installation size-3 portrait" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/the-standard-install">
-			
-			<img src="http://thestudiogold.net/content/01-projects/19-the-standard-install/cg-invite-card-r3__websmall.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#fa3112; color:#ffbdda">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">The Standard</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Installation<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project   size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/ghosting">
-			
-			<img src="http://thestudiogold.net/content/01-projects/20-ghosting/ghosting.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#8fffb8; color:#ffadff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">GHOSTING</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class=""><br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  video print size-2 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/redlight">
-			
-			<img src="http://thestudiogold.net/content/01-projects/21-redlight/redlight-pack-shot_large_websmall.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#3bdef7; color:#ff82ee">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Redlight</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Video<br>Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  print size-3 portrait" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/das-monk-xango">
-			
-			<img src="http://thestudiogold.net/content/01-projects/22-das-monk-xango/xango-hanging_websmall.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#ffc2c2; color:#ffffff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Das Monk: Xango</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project   size-2 square" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/redlight-x-colour-campaign">
-			
-			<img src="http://thestudiogold.net/content/01-projects/23-redlight-x-colour-campaign/redlight-cover.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#0abf2e; color:#ff6e26">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">REDLIGHT X COLOUR CAMPAIGN</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class=""><br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  print size-3 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/scion-musicless-conference">
-			
-			<img src="http://thestudiogold.net/content/01-projects/24-scion-musicless-conference/scion%20pack_o.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#000000; color:#ffffff">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Scion Musicless Conference</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>
-
-
-		
-	<div class="project  print size-2 landscape" style="" >
-		<div class="project-inner" data-project="http://thestudiogold.net/projects/scion-zines">
-			
-			<img src="http://thestudiogold.net/content/01-projects/25-scion-zines/sciondancezine.jpg" alt="" class="project-thumb">
-			<div class="project-labels sitecolor-bg" style="background-color:#f2f2f2; color:#000000">
-				<div class="project-label">
-					<div class="project-title rotate">
-						<p class="">Scion Zines</p>						
-					</div>
-					<div class="project-tags rotate">
-						<p class="">Print<br></p>						
-					</div>
-				</div>		
-				
-			</div>
-		</div>	
-	</div>-->
-
-
-	</section>
-
-
-<section id="loadProject">
-	</section>
-
-
-
+</p>
 
 
 
 
 </body>
+
+
+
+
  <script type="text/javascript" src="tinycolor.min.js"></script>
 
 <script type="text/javascript" src="global.js"></script>
-
-
-
-
 
 
