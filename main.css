@@ -74,7 +74,7 @@ img {
 html {
   font-size: 62.5%;
   font-family: 'Res', courier, monospace;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .optima {
@@ -269,7 +269,7 @@ em {
 
 #header-logo h2 {
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 
@@ -929,7 +929,7 @@ body.project-view {
 
 #projectPage .project-page-title {
   border-bottom: 2px solid;
-  font-weight: 700;
+  font-weight: 100;
   margin-bottom: 1rem;
   display: inline-block;
 }
@@ -1056,7 +1056,7 @@ body.project-view {
 #debug p {
   font-size: 1.5rem;
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 100;
 }
 
 #debug p:hover, #debug p.selected {
